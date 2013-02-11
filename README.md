@@ -18,7 +18,7 @@ The datasheet (on page 73) explains how to calculate the temperature from the re
 of the NTC:
 
 * First select the B25/85-VALUE from the table on page 70. (In my case the row is 10 000, 3977 K, 0.75%, 4103, 6103, 3103 ).
-* Then find the values for A1, B1, C1, D1 from tabel on page 73. (in my case the row is 9, 3977....)
+* Then find the values for A1, B1, C1, D1 from table on page 73. (in my case the row is 9, 3977....)
 * After that measure the input voltage.
 * Now you have everything to calculate the temperature.
 
