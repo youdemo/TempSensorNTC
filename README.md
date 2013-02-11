@@ -14,7 +14,7 @@ I use the NTC from VISHAY NTC-0.2 10K:
 * +/- 5%
 * 10K at 25 °C
 
-The datasheet (on page 73) explains how to calculate the temperature from the resisture value
+The datasheet (on page 73) explains how to calculate the temperature from the resistor value
 of the NTC:
 
 * First select the B25/85-VALUE from the table on page 70. (In my case the row is 10 000, 3977 K, 0.75%, 4103, 6103, 3103 ).

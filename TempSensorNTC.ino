@@ -29,7 +29,7 @@
 /**
  * 
  */
-double termister( int rawADC ) {
+double termistor( int rawADC ) {
 
   double vout  = (rawADC * VIN) / 1024.0;                // measured V 
   double r     = VIN * RREF / vout - RREF;               // resistor of the ntc
@@ -51,7 +51,7 @@ void loop() {
   Serial.print( "sensor = " );
   Serial.print( sensorValue );
   Serial.print( "\t output = ");
-  Serial.println( termister( sensorValue ) );
+  Serial.println( termistor( sensorValue ) );
 
   delay(5000);                     
 }
